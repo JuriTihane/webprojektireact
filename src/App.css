@@ -1,5 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
 .App {
   text-align: center;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 5vh;
+}
+
+.posts h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+
+  background-color: gray;
+  margin-bottom: 2vh;
+}
+
+.postTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.postContent {
+  display: flex;
+  background-color: #b4b4b4;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.signAndRegisterForm {
+  display: grid;
+}
+
+.postContentInput {
+  height: 20em;
+}
+
+.formWrapper {
+  width: 25em;
 }
 
 .App-logo {
